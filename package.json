@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec babel-node server.js --preset-env",
+    "dev": "babel-node server.js",
     "migrate": "cross-env NODE_ENV=development sequelize db:migrate",
     "migrate:reset": "sequelize db:migrate:undo:all",
     "migration": "npm run migrate:reset && npm run migrate",
