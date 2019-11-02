@@ -30,6 +30,6 @@
     "graphql-sequelize-query-loader": "^1.0.6",
     "pg": "^7.11.0",
     "pg-hstore": "^2.3.3",
-    "sequelize": "^5.8.12"
+    "sequelize": "^5.15.1"
   }
 }
